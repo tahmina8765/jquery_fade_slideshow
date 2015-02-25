@@ -1,0 +1,101 @@
+#features {
+	width:525px;
+	height:400px;
+	position:relative;
+}
+#features #feature-links {
+	display:block;
+	height:1em;
+	margin:0;
+	position:absolute;
+	right:10px;
+	text-align:right;
+	top:5px;
+	z-index:50;
+}
+#features #feature-links li {
+	border:1px solid #CCCCDD;
+	float:left;
+	list-style-image:none;
+	list-style-position:outside;
+	list-style-type:none;
+	margin:0 5px;
+	padding:0;
+}
+
+#features #feature-links li a {
+	background:#999999 none repeat scroll 0 0;
+	color:white;
+	display:block;
+	font-size:1.2em;
+	height:5px;
+	width:20px;
+	padding:0 0 15px;
+	@padding:0px;
+	text-align:center;
+	text-decoration:none !important;
+	opacity:0.85;
+}
+
+#features #feature-links li {
+	float:left;
+	margin:0 5px;
+	padding:1px;
+	background:#9A2335;
+}
+
+#features #feature-links li a {
+	background:#9A2335 none repeat scroll 0 0;
+	display:block;
+	font-size:1.0em;
+	padding:0 0 15px;
+	@padding:0px;
+	text-align:center;
+	text-decoration:none !important;
+	border:1px solid #FFFFFF;
+}
+
+#features #feature-links li a.active{
+	background:#9B525D !important;
+	opacity:1.0 !important;
+}
+
+#features .feature-story {
+	background:white none repeat scroll 0 0;
+	left:0;
+	position:absolute;
+	top:0;
+}
+
+#features h2.feature-title, #features span.feature-title {
+	background:transparent none repeat scroll 0 0;
+	border-color:#B2B3B5 -moz-use-text-color;
+	border-style:solid none;
+	border-width:1px medium;
+	color:#0C3966;
+	font-size:1.8em;
+	font-weight:normal;
+	height:1.2em;
+	left:0;
+	margin:0;
+	padding:0 5px 0 0;
+	position:absolute;
+	text-align:right;
+	text-shadow:0.1em 0.1em 0.3em #999999;
+	top:254px;
+	width:512px;
+	background:white none repeat scroll 0 0;
+	display:block;
+	opacity:0.85;
+}
+
+#features .feature-photo {
+	border:0 none;
+	display:block;
+	margin:0;
+}
+
+.feature-story img{
+	width:530px;
+	height:298px;
+}
